@@ -7,4 +7,5 @@ plot(x, y^2)
 dat <- data.frame(x, y)
 
 ggplot(dat, aes(x, y)) +
-  geom_point()
+  geom_point() +
+  theme_bw()
